@@ -1,0 +1,4 @@
+find . -name "*.jar" -delete
+find . -type d -exec chmod 755 {} \;
+
+python3 /usr/share/java-utils/mvn_file.py jdepend:jdepend jdepend

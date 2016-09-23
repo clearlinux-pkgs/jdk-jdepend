@@ -1,0 +1,26 @@
+From 9cf49975f222e423d4172f9cbb3871c49fb81dec Mon Sep 17 00:00:00 2001
+From: Athenas Jimenez Gonzalez <athenas.jimenez.gonzalez@intel.com>
+Date: Wed, 18 Jan 2017 19:22:10 +0000
+Subject: [PATCH] Remove timestamp in javadoc
+
+---
+ build.xml | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/build.xml b/build.xml
+index ccb5266..306dc90 100755
+--- a/build.xml
++++ b/build.xml
+@@ -174,7 +174,8 @@
+              version="true"
+              windowtitle="JDepend ${version} API"
+              doctitle="JDepend ${version} API"
+-             bottom="Copyright &#169; 1999-2005 Clarkware Consulting, Inc.">
++	     bottom="Copyright &#169; 1999-2005 Clarkware Consulting, Inc."
++	     additionalparam="-notimestamp">
+       <classpath refid="project.classpath"/>
+     </javadoc>
+   </target>
+-- 
+2.11.0
+

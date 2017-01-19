@@ -1,6 +1,6 @@
 Name     : jdk-jdepend
 Version  : 2.9.1
-Release  : 1
+Release  : 2
 URL      : https://github.com/clarkware/jdepend/archive/2.9.1.tar.gz
 Source0  : https://github.com/clarkware/jdepend/archive/2.9.1.tar.gz
 Source1  : http://repo1.maven.org/maven2/jdepend/jdepend/2.9.1/jdepend-2.9.1.pom
